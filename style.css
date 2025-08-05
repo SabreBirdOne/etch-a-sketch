@@ -19,7 +19,3 @@
     flex: 1;
     border: 1px solid green;
 }
-
-.square:hover {
-    background-color: pink;
-}
