@@ -24,6 +24,14 @@ function clearGrid(g) {
     } 
 }
 
+function getRandomRGB(){
+    // returns a random RGB string: RGB(?,?,?)
+    const R = Math.floor(Math.random() * 256);
+    const G = Math.floor(Math.random() * 256);
+    const B = Math.floor(Math.random() * 256);
+    return `rgb(${R}, ${G}, ${B})`;
+}
+
 const grid = document.querySelector("#grid");
 grid.style.height = GRID_SIDE_LENGTH;
 grid.style.width = GRID_SIDE_LENGTH;
